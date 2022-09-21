@@ -31,7 +31,7 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: calc(3 * var(--width-i-frame) + 6 * var(--default-margin) + 6em);
+    width: calc(3 * var(--width-i-frame) + 6 * var(--default-margin) + 7em);
 }
 
 .video-container {
@@ -52,6 +52,8 @@ main {
 }
 
 iframe {
+    border-style: none;
+    border-radius: 0.5em;
     width: var(--width-i-frame);
     height: var(--height-i-frame);
 }
