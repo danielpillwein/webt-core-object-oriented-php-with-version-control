@@ -1,0 +1,82 @@
+:root {
+    --width-i-frame: 20vw;
+    --height-i-frame: calc(var(--width-i-frame) / 16 * 9);
+    --default-margin: 2em;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: darkblue;
+    color: white;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    margin-top: 8em;
+    justify-content: center;
+    align-content: center;
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: calc(3 * var(--width-i-frame) + 6 * var(--default-margin) + 6em);
+}
+
+.video-container {
+    margin: var(--default-margin);
+    background: lightblue;
+    border-radius: 0.5em;
+    padding: 1em;
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    text-align: left;
+}
+
+.origin {
+    text-align: left;
+}
+
+iframe {
+    width: var(--width-i-frame);
+    height: var(--height-i-frame);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: lightgray;
+    height: 3em;
+}
+
+@media screen and (orientation: portrait) {
+    header {
+        font-size: 20pt;
+    }
+
+    :root{
+        --width-i-frame: 90vw;
+    }
+
+    .flex-wrapper {
+        flex-direction: column;
+        width: 100%;
+    }
+
+}
