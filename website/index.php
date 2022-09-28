@@ -10,6 +10,7 @@
         <h1>Bootube</h1>
     </header>
     <main>
+        <?php include '../src/Main.php';?>
         <div class="flex-wrapper">
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/HTLPULt0eJ4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
