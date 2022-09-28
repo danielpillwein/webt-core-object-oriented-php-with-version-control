@@ -1,0 +1,16 @@
+{
+    "name": "lukas/webt-core-object-oriented-php-with-version-control",
+    "description": "BooTube - is a Project for WEBT",
+    "autoload": {
+        "psr-4": {
+            "Lukas\\WebtCoreObjectOrientedPhpWithVersionControl\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Quantompixel",
+            "email": "39237785+Quantompixel@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
