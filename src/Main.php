@@ -1,6 +1,6 @@
 <?php
-require "YouTube.php";
-require "Vimeo.php";
+require_once "YouTube.php";
+require_once "Vimeo.php";
 
 $videos = [];
 
